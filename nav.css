@@ -1,0 +1,66 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(./hey.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.navbar
+{
+    background-color: rgb(182, 163, 109);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0%;
+    margin: 0%;
+}
+#brand{
+    color: rgba(100, 79, 33, 0.863);
+    font-size: x-large;
+    font-style: italic;
+    font-family: 'Lucida Sans Calligraphy';
+    font-weight: bolder;
+}
+#Abt{
+    color:rgba(100, 79, 33, 0.863);
+}
+#Home{
+    color: rgba(148, 130, 91, 0.863);
+}
+#cont1
+{
+    background-color: rgb(170, 215, 193);
+}
+.cont{
+    background-color: rgb(245, 232, 194);
+    color: rgb(58, 43, 2);
+    border-radius: 20px;
+    opacity: 70%;
+    text-align: center;
+    width: 70%;
+    margin: 10%;
+    margin-top: 19%;
+    font-family: 'Lucida Sans Calligraphy';
+    font-style: italic;
+}
+
+.btn
+{
+   background-color:rgb(173, 254, 231);
+   border-radius: 20px;
+   margin-bottom: 5%;
+   color: black;
+   font-size: large;
+}
+.btn:hover{
+    background-color: rgb(170, 215, 193);  
+}
+h1{
+    font-style: italic;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(61, 48, 32);
+}

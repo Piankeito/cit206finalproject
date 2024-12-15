@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+<div>
+    <div class="mainframe" id="navbar">
+        <div class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid" id="cont1">
+              <a class="navbar-brand" href="#" id="brand" ><img src="keito.png" style="height: fit-content;width:50px;"> Keito's Portfolio</a>
+              <div class="collapse d-flex" id="navbarSupportedContent ">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                  <a class="nav-link " aria-current="page"  id="Home" href="index.html"> Home</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" id="Abt"  href="POPPY.html">About me</a>
+                  </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="container-fluid ">
+        <div class="row">
+            <div class="col col-lg-5 col-md-5 col-sm-12">
+                <div class="card">
+                    <img src="pian.jpg" class="card-img-top" >
+                    <div class="abt">
+                      <p class="card-text">Konnichiwa I'm
+                      <h1><b> Pian Kate</b></h1><h5>~ Your weeb sophomore programmer ~</h5> </p>
+                      <div class="data"><p>
+                        <h4><b>Personal Information</b></h4>
+                        <b>Birthdate:</b> 12/02/04<br>
+                        <b>Age:</b> 20<br>
+                        <b>Height:</b>157cm<br>
+                        <b>Facebook:</b><a href="https://www.facebook.com/PianKate" id="v">Pian Kate Manajero Legarde</a><br>
+                        <b>Email:</b>legardepiankate@gmail.com<br>
+                        <b>Hobbies:</b> Watching Anime,Reading Books,Listening to music & Making stupid songs/poems
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col col-lg-7 col-md-7 col-sm-12" id="cont3">
+                <p>This semester, we faced many obstacles, but the memories and lessons I learnt will always be there. This topic truly grabbed my attention, but I'm not ostentatious enough. Even though I don't particularly enjoy programming, I get a little excited about it. It illuminates my soul and enables me to appreciate the beauty of programming. With this one, I can tell that I'm gradually getting better and learning new talents.</p>
+
+                <div class="cont"> 
+                        <button id="btn1" onclick="OpenpopUp()" class="button"> See My Works </button>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+</div>
+            <div class="container2" id="cont2"> 
+                    
+                     <div class="list-group">
+                        <button type="button" class="list-group-item list-group-item-action active" aria-current="true" id="wrk"> My Works</button>
+                        <button type="button" class="list-group-item list-group-item-action"id="b"><a href="https://pyankeito.netlify.app/"><img src="toti.png" style="height: fit-content;width:50px;">  Log-in & Sign in Form</a></button>
+                        <button type="button" class="list-group-item list-group-item-action"id="b"><a href="POPPY.html"><img src="nf.png" style="height: fit-content;width:50px;"> Pop-Up</a></button>
+                        <button type="button" class="list-group-item list-group-item-action"id="b"><a href="https://finalcalculi.netlify.app/"><img src="e.png" style="height: fit-content;width:50px;"> Functional Calculator</a></button>
+                        <button type="button" class="list-group-item list-group-item-action"id="b"><a href="https://calicu.netlify.app/"><img src="a.png" style="height: fit-content;width:50px;"> Calculator Layout</a></button>
+                        <button type="button" class="list-group-item list-group-item-action"id="b" ><a href="https://husbandryfinal.netlify.app/"><img src="b.png" style="height: fit-content;width:50px;">1st Activity Fuunctional</a></button>
+                        <button type="button" class="list-group-item list-group-item-action"id="b"><a href="https://respnsivcss.netlify.app/"><img src="c.png" style="height: fit-content;width:50px;"> Responsive CSS</a></button>
+                        <button type="button" class="list-group-item list-group-item-action"id="b"><a href="https://kyuuki.netlify.app/"><img src="f.png" style="height: fit-content;width:50px;">1st Activity Layout</a></button>
+                    </div>
+                    <br>
+                <button id="btn2" onclick="ClosepopUp()">Close</button> 
+            </div>
+
+    
+    
+
+</body>
+</html>
+
+<script>
+    let popup = document.getElementById("cont2");
+    function OpenpopUp(){
+        popup.classList.add
+        ("open-popUp");
+    }
+    function ClosepopUp(){
+        popup.classList.remove
+        ("open-popUp");
+        alert("Thank you for visiting ( ◜‿◝ )♡")
+
+    }
+
+</script>
